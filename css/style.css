@@ -9,7 +9,7 @@
 }
 
 body {
-  width: 100vw;
+  width: 98vw;
   display: flex;
   justify-content: center;
   padding: 3rem 0;
@@ -47,6 +47,33 @@ a {
 
 .foto-perfil .perfil {
   width: 10vw;
+  animation: foto 4s forwards;
+}
+
+.nome {
+  animation: nome 4s forwards;
+}
+
+@keyframes foto {
+  0% {
+    opacity: 0;
+    transform: translate3d(100px, 0, 0);
+  }
+  100% {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes nome {
+  0% {
+    opacity: 0;
+    transform: translate3d(-40px, 0, 0);
+  }
+  100% {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
 }
 
 .info-nome {
