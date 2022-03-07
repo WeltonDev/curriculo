@@ -76,6 +76,17 @@ a {
   }
 }
 
+@keyframes noturno {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, -40px, 0);
+  }
+  100% {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
 .info-nome {
   display: flex;
   flex-direction: column;
@@ -141,6 +152,9 @@ a {
   text-shadow: 1px 1px 1px #000;
 }
 
+.dark-background-container .foto-perfil {
+  animation: noturno 2s forwards;
+}
 .dark-right-container {
   background-color: #5f6275;
   color: #fff;
