@@ -274,6 +274,10 @@ a {
     background-color: #e9e2e2;
     border-radius: none;
     box-shadow: none;
+    padding: 0;
+    margin: 0;
+    border: none;
+    border-radius: none;
   }
 
   .right-container h2 {
@@ -321,6 +325,7 @@ a {
   }
 
   .dark-right-container {
+    width: 100vw;
     background-color: #44475a;
     color: #fff;
     text-shadow: 1px 1px 1px #000;
